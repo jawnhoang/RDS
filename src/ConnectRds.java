@@ -6,11 +6,11 @@ import java.sql.Statement;
 
 public class ConnectRds {
 
-	private static String PUBILC_END_POINT = "hoang-rds-172.cfguj5gy1ncn.us-west-1.rds.amazonaws.com";
+	private static String PUBILC_END_POINT = "#########";//censored due to privacy- endpoint is aws
 	private static String PORT = "3306";
 	private static String DB_NAME = "lab4_rds";
-	private static String USER_NAME = "Hoang014411072";
-	private static String PASSWORD = "Khoa.rds123";
+	private static String USER_NAME = "#######"; //censored due to privacy
+	private static String PASSWORD = "######";//censored due to privacy
 
 	public static void main(String[] args) {
 		ConnectRds.connect();
